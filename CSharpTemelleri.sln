@@ -71,6 +71,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B21.Enum", "B21.Enum\B21.En
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B23.GenericClass", "B23.GenericClass\B23.GenericClass.csproj", "{7A8B1A96-1A36-4893-A1E8-66EBEC3EB932}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D196.YeniFormClick", "B24.D196.YeniFormClick\B24.D196.YeniFormClick.csproj", "{81805D39-9215-4093-9AA6-B57245AAAA86}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -213,6 +215,10 @@ Global
 		{7A8B1A96-1A36-4893-A1E8-66EBEC3EB932}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{7A8B1A96-1A36-4893-A1E8-66EBEC3EB932}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{7A8B1A96-1A36-4893-A1E8-66EBEC3EB932}.Release|Any CPU.Build.0 = Release|Any CPU
+		{81805D39-9215-4093-9AA6-B57245AAAA86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{81805D39-9215-4093-9AA6-B57245AAAA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{81805D39-9215-4093-9AA6-B57245AAAA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{81805D39-9215-4093-9AA6-B57245AAAA86}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
