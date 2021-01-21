@@ -73,6 +73,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B23.GenericClass", "B23.Gen
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D196.YeniFormClick", "B24.D196.YeniFormClick\B24.D196.YeniFormClick.csproj", "{81805D39-9215-4093-9AA6-B57245AAAA86}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D197.FormaVeriGonderme", "B24.D197.FormaVeriGonderme\B24.D197.FormaVeriGonderme.csproj", "{7AC5CF08-5ABE-4DE3-B9B9-4B690A2854D3}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -219,6 +221,10 @@ Global
 		{81805D39-9215-4093-9AA6-B57245AAAA86}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{81805D39-9215-4093-9AA6-B57245AAAA86}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{81805D39-9215-4093-9AA6-B57245AAAA86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{7AC5CF08-5ABE-4DE3-B9B9-4B690A2854D3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{7AC5CF08-5ABE-4DE3-B9B9-4B690A2854D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{7AC5CF08-5ABE-4DE3-B9B9-4B690A2854D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{7AC5CF08-5ABE-4DE3-B9B9-4B690A2854D3}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
