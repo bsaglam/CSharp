@@ -12,7 +12,7 @@ namespace B14.d129.Kapsulleme
         private string email;
         public Musteri()
         {
-            email = "hotmail";
+            email = "burcu.sonmez@hotmail";
         }
         public string Email
         {

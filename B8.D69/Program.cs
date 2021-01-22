@@ -20,7 +20,7 @@ namespace B8.D69
             ikinci = Console.ReadLine();
             Console.WriteLine("1.notunuzu giriniz.");
             ucuncu = Console.ReadLine();
-            ortalama = (int.Parse(birinci) + int.Parse(ikinci) + int(ucuncu))/3;
+            ortalama = (int.Parse(birinci) + int.Parse(ikinci) + int.Parse(ucuncu))/3;
             if (ortalama < 50) Console.WriteLine("FF");
             else if (ortalama >= 50 && ortalama < 60) Console.WriteLine("CB");
             else if (ortalama >= 60 && ortalama < 70) Console.WriteLine("BB");

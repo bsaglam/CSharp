@@ -77,6 +77,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D197.FormaVeriGonderme"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D198.GirisFormu", "B24.D198.GirisFormu\B24.D198.GirisFormu.csproj", "{F9C46D7A-4FEC-4138-9776-EC154DDB84CF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D202.KayitEklemeVeListeleme-Notify", "KayitEklemeVeListeleme-Notify\B24.D202.KayitEklemeVeListeleme-Notify.csproj", "{9CC99F11-C252-46DA-9EE3-D342A561609D}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -231,6 +233,10 @@ Global
 		{F9C46D7A-4FEC-4138-9776-EC154DDB84CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{F9C46D7A-4FEC-4138-9776-EC154DDB84CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{F9C46D7A-4FEC-4138-9776-EC154DDB84CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{9CC99F11-C252-46DA-9EE3-D342A561609D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{9CC99F11-C252-46DA-9EE3-D342A561609D}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{9CC99F11-C252-46DA-9EE3-D342A561609D}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{9CC99F11-C252-46DA-9EE3-D342A561609D}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
