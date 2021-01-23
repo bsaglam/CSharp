@@ -85,7 +85,7 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D208.DinamikFormElemanl
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D209.MayinTarlasi", "B24.D209.MayinTarlasi\B24.D209.MayinTarlasi.csproj", "{66379EC8-74EE-46D1-9646-ABA2A8BEA5AF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D110.ComboBox", "B24.D110.ComboBox\B24.D110.ComboBox.csproj", "{57163774-ABAD-4B36-8BDB-9F6675878C1D}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D210.ComboBoxOrnek", "B24.D110.ComboBox\B24.D210.ComboBoxOrnek.csproj", "{57163774-ABAD-4B36-8BDB-9F6675878C1D}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution

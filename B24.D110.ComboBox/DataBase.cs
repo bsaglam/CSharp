@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace B24.D110.ComboBox
+namespace B24.D210.ComboBoxOrnek
 {
     public static class DataBase
     {
@@ -14,9 +14,9 @@ namespace B24.D110.ComboBox
         {
             urunListe = new List<Urun>()
             {
-                new Urun(){Id=1,Adi="karamamov kardeşler",Resim="",stok=10,Yazar="Dostoyevski",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"},
-                new Urun(){Id=1,Adi="beyaz zambaklar ülkesinde",Resim="",stok=10,Yazar="Balzac",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"},
-                new Urun(){Id=1,Adi="aşk",Resim="",stok=10,Yazar="Elif Şafak",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"}
+                new Urun(){Id=1,Adi="karamamov kardeşler",Resim=@"C:\Users\GMYLOJ59\Desktop\Keys-icon.png",Stok=10,Yazar="Dostoyevski",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"},
+                new Urun(){Id=1,Adi="beyaz zambaklar ülkesinde",Resim=@"C:\Users\GMYLOJ59\Desktop\Keys-icon.png",Stok=10,Yazar="Balzac",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"},
+                new Urun(){Id=1,Adi="aşk",Resim=@"C:\Users\GMYLOJ59\Desktop\Keys-icon.png",Stok=10,Yazar="Elif Şafak",Aciklama="aladmmfdısfkldsmflkdmsfdıfmkdv mdd csdllkdkf"}
             };
         }
     }

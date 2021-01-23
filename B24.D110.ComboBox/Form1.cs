@@ -8,7 +8,7 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace B24.D110.ComboBox
+namespace B24.D210.ComboBoxOrnek
 {
     public partial class Form1 : Form
     {
@@ -38,6 +38,21 @@ namespace B24.D110.ComboBox
                                          //görüntülenecek objenin ToString metodunu override 
                                          //etmeliyiz
             }
+        }
+
+        private void cbxUrun_SelectedIndexChanged(object sender, EventArgs e)
+        {
+            ComboBox cbx = sender as ComboBox;
+            Urun urun = cbx.SelectedItem as Urun;
+
+            txtKategori.Text = urun.Kategori;
+            txtStok.Text = urun.Stok.ToString();
+            txtUrunAdi.Text = urun.Adi;
+            txtYazar.Text = urun.Yazar;
+            rtxtAciklama.Text= urun.Aciklama;
+            pictureBox1.Image = Image.FromFile(urun.Resim);
+            pictureBox1.SizeMode = PictureBoxSizeMode.StretchImage;
+             
         }
     }
 }
