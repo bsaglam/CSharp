@@ -23,7 +23,7 @@ namespace B24.D209.MayinTarlasi
         {
             Button btn = (Button)sender;
 
-            if (btn.Tag.ToString().Length == 3)
+            if ((bool)btn.Tag==true)
             {
                 btn.BackColor = Color.Red;
                 if (sayac < 3)
@@ -57,16 +57,25 @@ namespace B24.D209.MayinTarlasi
         private void Form1_Load(object sender, EventArgs e)
         {
             Random random = new Random();
+            //Butonlarımız oluşruken içine mayın olanları yerleştirmemiz gerekiyor.
+            //Mayın oldugundan emin olmak içinde 50 yi 3 lü gruba ayıralım.
+            int rnd1 = random.Next(1,20);
+            int rnd2 = random.Next(21,40);
+            int rnd3 = random.Next(41,50);
             for (int i = 0; i < 64; i++)
             {
                 Button btn = new Button();
+                if (rnd1==i || rnd2==i || rnd3 ==i)
+                {
+
+                    btn.Tag = true;
+                }
+                else btn.Tag = false;
                 btn.Location = new System.Drawing.Point(3, 3);
                 btn.Name = "button" + i.ToString();
                 btn.Text = String.Empty;
                 btn.Size = new System.Drawing.Size(30, 30);
-                btn.TabIndex = 0;
                 btn.UseVisualStyleBackColor = true;
-                btn.Tag = random.Next(1, 150).ToString();
                 btn.Click += Btn_Click;
                 flowLayoutPanel1.Controls.Add(btn);
 
