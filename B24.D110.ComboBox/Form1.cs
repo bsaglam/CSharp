@@ -19,14 +19,24 @@ namespace B24.D110.ComboBox
 
         private void Form1_Load(object sender, EventArgs e)
         {
+
+            //comboDoldur1();
+            comboDoldur2();
+
+        }
+
+        private void comboDoldur2()
+        {
+            cbxUrun.DataSource = DataBase.urunListe; //yine TOString override edilmeli
+        }
+
+        private void comboDoldur1()
+        {
             foreach (Urun item in DataBase.urunListe)
             {
                 cbxUrun.Items.Add(item); // bu şekilde object görünlemesini istiyorsak, 
                                          //görüntülenecek objenin ToString metodunu override 
                                          //etmeliyiz
-
-
-
             }
         }
     }
