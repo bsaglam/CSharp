@@ -93,6 +93,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D220.CheckedListBoxKull
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D224.FakeDataAndGridView", "B24.D224.FakeDataAndGridView\B24.D224.FakeDataAndGridView.csproj", "{42A63BCA-28F0-4B2D-9870-3A719A813C0A}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D229.GridViewImageGosterme", "B24.D229.GridViewImageGosterme\B24.D229.GridViewImageGosterme.csproj", "{15EE2BEE-1DF1-485B-BE6E-727B317DE4B8}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -279,6 +281,10 @@ Global
 		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Release|Any CPU.Build.0 = Release|Any CPU
+		{15EE2BEE-1DF1-485B-BE6E-727B317DE4B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{15EE2BEE-1DF1-485B-BE6E-727B317DE4B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{15EE2BEE-1DF1-485B-BE6E-727B317DE4B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{15EE2BEE-1DF1-485B-BE6E-727B317DE4B8}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
