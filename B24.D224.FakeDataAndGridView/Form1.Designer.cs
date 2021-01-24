@@ -50,8 +50,10 @@
             this.dgMusteriListe.Dock = System.Windows.Forms.DockStyle.Fill;
             this.dgMusteriListe.Location = new System.Drawing.Point(3, 16);
             this.dgMusteriListe.Name = "dgMusteriListe";
+            this.dgMusteriListe.SelectionMode = System.Windows.Forms.DataGridViewSelectionMode.FullRowSelect;
             this.dgMusteriListe.Size = new System.Drawing.Size(590, 318);
             this.dgMusteriListe.TabIndex = 0;
+            this.dgMusteriListe.DoubleClick += new System.EventHandler(this.dgMusteriListe_DoubleClick);
             // 
             // Form1
             // 
