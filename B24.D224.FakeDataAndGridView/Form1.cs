@@ -19,8 +19,8 @@ namespace B24.D224.FakeDataAndGridView
 
         private void Form1_Load(object sender, EventArgs e)
         {
-            string isim = FakeData.NameData.GetFirstName();
-            MessageBox.Show(isim);
+            DataBase db = new DataBase();
+            List<Musteri> liste=db.MusteriGetir();
 
         }
     }
