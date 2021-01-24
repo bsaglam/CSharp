@@ -89,6 +89,10 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D210.ComboBoxOrnek", "B
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D217.ListBoxKullanimi", "B24.D217.ListBoxKullanimi\B24.D217.ListBoxKullanimi.csproj", "{830DDE91-91C2-4622-82CA-AB394B93A0A8}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D220.CheckedListBoxKullanimi", "B24.D220.CheckedListBoxKullanimi\B24.D220.CheckedListBoxKullanimi.csproj", "{746E1575-BD6C-457B-A9D1-D4A276CC2FDC}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "B24.D224.FakeDataAndGridView", "B24.D224.FakeDataAndGridView\B24.D224.FakeDataAndGridView.csproj", "{42A63BCA-28F0-4B2D-9870-3A719A813C0A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -267,6 +271,14 @@ Global
 		{830DDE91-91C2-4622-82CA-AB394B93A0A8}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{830DDE91-91C2-4622-82CA-AB394B93A0A8}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{830DDE91-91C2-4622-82CA-AB394B93A0A8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{746E1575-BD6C-457B-A9D1-D4A276CC2FDC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{746E1575-BD6C-457B-A9D1-D4A276CC2FDC}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{746E1575-BD6C-457B-A9D1-D4A276CC2FDC}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{746E1575-BD6C-457B-A9D1-D4A276CC2FDC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{42A63BCA-28F0-4B2D-9870-3A719A813C0A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

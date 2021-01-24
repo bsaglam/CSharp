@@ -8,7 +8,7 @@ namespace B14.d129.Kapsulleme
 {
     class Musteri
     {
-        public string isim;
+       // public string isim;
         private string email;
         public Musteri()
         {
