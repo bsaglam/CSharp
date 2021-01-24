@@ -21,7 +21,7 @@ namespace B24.D224.FakeDataAndGridView
         {
             DataBase db = new DataBase();
             List<Musteri> liste=db.MusteriGetir();
-
+            dgMusteriListe.DataSource = liste;
         }
     }
 }
